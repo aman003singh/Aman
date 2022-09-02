@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Yash Mittal">
+
+        <link rel="icon" href="" />
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="resource/fontawesome/fontawesome.min.css">
+        <script src="resource/fontawesome/fontawesome.min.js"></script>
+
+        <link rel="stylesheet" href="resource/lightbox/ekko-lightbox.css">
+        <script src="resource/lightbox/ekko-lightbox.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@700&family=IBM+Plex+Sans+Hebrew:wght@700&family=IM+Fell+Great+Primer+SC&family=Ibarra+Real+Nova&family=Inria+Serif:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="resource/aos/aos.css">
+        <script src="resource/aos/aos.js"></script>
+
+        <link rel="stylesheet" href="Vector/aman-contact.css">
+        <title>Home - Aman</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md sticky-top ibm" id="a-nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+                    <i class="fas fa-bars"></i> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="collapsiblenavbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li><a href="index.html" class="nav-link">Work</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li class="current-page"><a href="contact.html" class="nav-link">Contact</a></li>
+                        <li><a href="resume.html" class="nav-link">Resume</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main id="y-main" class="text-center">
+            <h1 class="ibm">CONTACT ME VIA</h1>
+            <section class="y-content row">
+                <section class="col-sm-6 form-group">
+                    <div id="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=100004835055864" class="text-white"> <i class="fab fa-facebook"></i></a><br>
+                        <a href="figma.com/@aman003singh" class="text-white"> <i class="fab fa-figma"></i></a><br>
+                        <a href="https://instagram.com/aman003singh?igshid=YmMyMTA2M2Y=" class="text-white"> <i class="fab fa-instagram"></i></a><br>
+                        <a href="https://www.linkedin.com/in/aman-kumar-singh-10258821a" class="text-white"> <i class="fab fa-linkedin"></i></a><br>
+                        <a href="https://twitter.com/Aman003Singh?t=MDfIp0iHyUAp6k77sOLOMQ&s=09" class="text-white"> <i class="fab fa-twitter"></i></a><br>
+                    </div>
+                </section>
+                <section class="col-sm-6 ibm text-center align-items-center">
+                    <h2 class="ibm">How can I improve my portfolio</h2>
+                    <textarea name="" id="" cols="50" rows="2" class="y-input text-center" placeholder=" Feel free to say or ask anything"></textarea><br>
+                    <button type="submit" class="btn btn-primary">SUBMIT</button>                    
+                </section>
+            </section>
+            <section class="text-center text-white">
+                <div class="y-email">amansinghkumar468@gmail.com</div>
+            </section>
+        </main>
+        <footer>
+            <div class="row text-white">
+                <div class="float-right px-5">
+                    <br>
+                    <div><span id="icon">&copy;&nbsp;</span>Yash Mittal & Aman Singh</div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+
+            //script for Google Sheet
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5UqZjpffy-s1m6vI0BBlijQ6KAOTG6y8TOGBB_apzM1XHDlJRXbWlyycTvdp1wsY-/exec';
+        const form = document.forms['google-sheet'];
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+        });
+        </script>
+    </body>
+</html>

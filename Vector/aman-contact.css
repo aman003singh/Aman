@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(225deg, rgba(250, 23, 23, 0), rgba(160, 29, 145, 0.521), rgb(78, 34, 255));
+}
+.row{
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 50px;
+    margin: 30px 20px 0 0;
+    width: 85%;
+}
+header a{
+    margin: 0 25px;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+.current-page{
+    background-color: rgba(255, 255, 255, 0.719)
+}
+.navbar{
+    padding: 1px;
+}
+#a-nav, #collapsiblenavbar{
+    background-color: #cfa3ff;
+}
+.imfell{
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+.inria{
+    font-family: 'Inria Serif', serif;
+}
+.gorditas{
+    font-family: 'Gorditas', cursive;
+}
+.ibarra{
+    font-family: 'Ibarra Real Nova', serif;
+}
+#y-main{
+    margin: 150px 35px 51px 35px;
+}
+#y-main section{
+    margin: auto;
+}
+.y-content{
+    background-color: rgba(255, 255, 255, 0.363);
+    height: 260px;
+    border-radius: 20px;
+}
+h1,h2{
+    color: #4e22ffad;
+}
+.ibm{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+}
+.y-input{
+    border-radius: 20px;
+}
+.y-email{
+    font-size: large;
+    margin: auto;
+    width: max-content;
+    padding: 5px 70px;
+    background-color: #4e22ffad;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+footer{
+    padding: 40px 0;
+    background-image: url("footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#social-media{
+    font-size: xx-large;
+}

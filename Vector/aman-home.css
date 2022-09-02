@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(225deg, rgba(250, 23, 23, 0), rgba(160, 29, 145, 0.521), rgb(78, 34, 255));
+}
+.row{
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 50px;
+    margin: 30px 20px 0 0;
+    width: 85%;
+}
+header a{
+    margin: 0 25px;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+.current-page{
+    background-color: rgba(255, 255, 255, 0.719)
+}
+.navbar{
+    padding: 1px;
+}
+#a-nav, #collapsiblenavbar{
+    background-color: #cfa3ff;
+}
+img{
+    margin-top: 20px;
+    width: 150px;
+}
+aside{
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #4e22ff, rgba(160, 29, 145, 0));
+    height: 800px;
+}
+#gallery img{
+    margin: 1px;
+    height: 150px;
+    max-width: 150px;
+}
+.imfell{
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+.inria{
+    font-family: 'Inria Serif', serif;
+}
+.gorditas{
+    font-family: 'Gorditas', cursive;
+}
+.ibarra{
+    font-family: 'Ibarra Real Nova', serif;
+}
+#y-main section{
+    margin: 90px auto 0 auto;
+    width: 50%;
+}
+#y-main div{
+    background-color: rgba(78, 34, 255, 0.247);
+    margin: 30px auto;
+    height: 100px;
+    width: 80%;
+}
+.ibm{
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+}
+#y-main h1{
+    color: white;
+}
+footer{
+    padding: 50px 0 0 0;
+    background-image: url("footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+#icon{
+    font-size: x-large;
+}

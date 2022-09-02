@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(225deg, rgba(250, 23, 23, 0), rgba(160, 29, 145, 0.521), rgb(78, 34, 255));
+}
+.row{
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 50px;
+    margin: 30px 20px 0 0;
+    width: 85%;
+}
+header a{
+    margin: 0 25px;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+.current-page{
+    background-color: rgba(255, 255, 255, 0.719)
+}
+.navbar{
+    padding: 1px;
+}
+#a-nav, #collapsiblenavbar{
+    background-color: #cfa3ff;
+}
+.y-contents{
+    width: 100%;
+    padding: 0 15px;
+}
+aside{
+    position: fixed;
+    right: 100px;
+    background: linear-gradient(to bottom, #4e22ff, rgba(160, 29, 145, 0));
+    height: 800px;
+    width: 20%;
+    z-index: -1;
+}
+.y-resume-container{
+    position: relative;
+    left: 4%;
+    margin: 100px;
+    width: 80%;
+    height: 800px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.y-resume-content{
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    padding: 50px 0 0 0;
+    background-image: url("footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+#social-media{
+    font-size: x-large;
+}
